@@ -32,4 +32,4 @@ macOS 10.14 系统使用录音权限，需要在target的`info.plist`中新加`N
 5. 为macOS 10.14 以上版本添加摄像头使用权限配置
 macOS 10.14 系统使用摄像头权限，需要在target的`info.plist`中新加`NSCameraUsageDescription`键，值为字符串(授权弹窗出现时提示给用户)。首次开启摄像头时会向用户申请权限。
 
-### 注：可查看“适用于macOS-API手册的视频SDK”具体的API接受手册
+### 注：可查看“适用于macOS-API手册”具体的API接入方法
